@@ -38,7 +38,7 @@ app.post("/Contact", function(req, res){
   const lname = req.body.lname;
 
 
-      res.redirect("/Submit")
+      res.redirect("/")
 
   });
 
