@@ -138,9 +138,9 @@ h3 {
 }
 
 img {
-
-   max-width: 50%;
-  height: auto;
+display: block;
+margin: auto;
+transition: 300ms;
 }
 
 
