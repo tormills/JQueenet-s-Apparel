@@ -15,12 +15,39 @@ body{
   font-family: Arial;
   font-weight: bold;
   margin-top: 200px;
-  font-size: 3.0em;
+  font-size: 2.5em;
 }
 
 .btton{
 
-  margin-top: 270px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #314E52;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+
+
+
 }
 
 .carousel-inner{
@@ -31,7 +58,7 @@ body{
 
 text-align: center;
 
-  font-size: 3.0em;
+  font-size: 2.5em;
   font-family: Arial;
   font-weight: bolder;
 }
@@ -49,7 +76,7 @@ text-align: center;
 
 .founder{
   text-align: center;
-  font-size: 3.0em;
+  font-size: 2.5em;
   font-weight: bolder;
   font-family: Arial
 }
@@ -126,13 +153,13 @@ h3 {
 .details{
   font-family: Arial;
   font-weight: bolder;
-  font-size: 3.0em;
+  font-size: 2.5em;
 }
 
 .catchy{
   text-align: center;
   font-family: Arial;
-  font-size: 3.0em;
+  font-size: 2.5em;
 }
 
 .background{
