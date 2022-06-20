@@ -6,6 +6,14 @@ const request = require ("request");
 
 const app = express();
 
+const mongoose = require('mongoose');
+
+
+    mongoose
+        .connect("mongodb+srv://Admin-Itoro:itoro1986@cluster0.ex1oa.mongodb.net/TimberDB", {
+            useNewUrlParser: true,
+        });
+
 
 
 
