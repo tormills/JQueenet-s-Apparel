@@ -38,7 +38,13 @@ app.get("/Submit", function(req, res){
 
 });
 
-
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+app.listen(port, function(){
+  console.log("server has started successfully");
+});
 
 app.post("/Contact", function(req, res){
 
