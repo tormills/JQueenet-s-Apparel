@@ -6,15 +6,6 @@ const request = require ("request");
 
 const app = express();
 
-const mongoose = require('mongoose');
-
-
-    mongoose
-        .connect("mongodb+srv://Admin-Itoro:itoro1986@cluster0.ex1oa.mongodb.net/TimberDB", {
-            useNewUrlParser: true,
-        });
-
-
 
 
 app.use(express.static("public"));
@@ -38,13 +29,7 @@ app.get("/Submit", function(req, res){
 
 });
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 3000;
-}
-app.listen(port, function(){
-  console.log("server has started successfully");
-});
+
 
 app.post("/Contact", function(req, res){
 
