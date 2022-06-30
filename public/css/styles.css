@@ -1,12 +1,12 @@
 
 body{
   margin: 0;
-  background-color: #F4F4F4;
+  background-color: grey;
 
 }
 
 .subBackground{
-  background-color: #AEE6E6;
+  background-color: black;
   text-align: center;
 }
 
@@ -56,11 +56,13 @@ body{
 
 .Heading {
 
-text-align: center;
-
-  font-size: 2.5em;
-  font-family: Arial;
-  font-weight: bolder;
+  text-align: left;
+  background-color: grey;
+  color: white;
+  font-size: 3.5em;
+  font-family: cursive;
+  font-weight: bold;
+  margin-top: 0px;
 }
 
 .CEO {
@@ -75,16 +77,17 @@ text-align: center;
 }
 
 .founder{
-  text-align: center;
-  font-size: 2.5em;
-  font-weight: bolder;
-  font-family: Arial
+  text-align: left;
+  font-size: 0.5em;
+  font-weight: bold;
+  font-family: cursive;
+  word-wrap: break-word;
 }
 
 h2:hover, h3:hover {
   font-family: sans-serif;
   background-color: red;
-  color: #000000;
+  color: grey;
 
 }
 
@@ -98,32 +101,45 @@ h3 {
   color: #000000;
 }
 
+.container-fluid{
+  background-color: silver;
+}
 
+.nav-link{
+  color: red;
+  font-size: 3vw;
+  font-family: cursive;
+}
 .top-container {
-  background-color: #E7E6E1;
+  background-color: grey;
+
   position: relative;
   padding-top: 100px;
   display: block;
 }
 
 .middle-container {
-  background-color: #AEE6E6;
+  background-color: grey;
   margin: 100px 0;
 }
 
 .bottom-container {
-  background-color: #E7DEC8;
+  background-color: grey;
   padding: 50px 0 20px;
 }
 
-.rooftops{
+.Logoo{
 
-  left: 50px;
-  top: 10px;
-  height: 200px;
+  left: 2px;
+  float: left;
+  height: 300px;
   width: 300px;
+  margin-right: 4px;
+    position: relative;
+    top: 0px;
 
 }
+
 
 .rooftop{
 
@@ -151,9 +167,11 @@ h3 {
 }
 
 .details{
+  text-align: center;
   font-family: Arial;
   font-weight: bolder;
   font-size: 2.5em;
+  background-color: silver;
 }
 
 .catchy{
@@ -163,12 +181,29 @@ h3 {
 }
 
 .background{
-  background-color: #B7CADB;
+
+  background-color: #e5e5f7;
+opacity: 0.8;
+background-size: 20px 20px;
+background-image:  repeating-linear-gradient(to right, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
 }
 
 img {
 max-width: 50%;
 height: auto;
+}
+
+
+.dress{
+  height: 200px;
+  width: 200px;
+
+}
+
+.display-4{
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: 3em;
 }
 
 
