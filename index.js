@@ -49,13 +49,6 @@ app.post("/Submit", function(req, res){
   res.redirect("/")
 })
 
-/*
-app.post("/Contact", function (req, res){
-  if (response.statusCode === 200){
-    res.sendFile(__dirname + "/Submit.html");}
-});
-*/
-
 
   app.listen(process.env.PORT || 3000, function(){
     console.log("server is listening on port 3000");
