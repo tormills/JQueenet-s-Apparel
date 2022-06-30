@@ -30,23 +30,15 @@ app.get("/Collections", function(req, res){
 
 
 
-app.post("/Contact", function(req, res){
 
-  const fname = req.body.fname;
-  const lname = req.body.lname;
-
-
-      res.redirect("/")
-
-  });
 
 app.post("/Contact", function(req, res){
   res.redirect("/")
-})
+});
 
 app.post("/Collections", function(req, res){
   res.redirect("/")
-})
+});
 
 /*
 app.post("/Contact", function (req, res){
@@ -55,7 +47,7 @@ app.post("/Contact", function (req, res){
 });
 */
 
-app.listen(3000, function(){
+app.listen(process.env. PORT || 3000, function(){
   console.log("server is listening on port 3000");
 });
 
